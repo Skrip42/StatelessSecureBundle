@@ -1,0 +1,3 @@
+stateless_secure_get_token:
+  path: /stateless_secure/get_token
+  controller: Skrip42\StatelessSecureBundle\Controller\StatelessSecureController::getToken

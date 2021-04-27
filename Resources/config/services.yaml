@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Skrip42\StatelessSecureBundle\RequestMatcher: ~
+  Skrip42\StatelessSecureBundle\Security\UserProvider: ~
+  Skrip42\StatelessSecureBundle\Security\Authenticator: ~
+  Skrip42\StatelessSecureBundle\Controller\StatelessSecureController: ~

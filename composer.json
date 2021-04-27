@@ -1,0 +1,30 @@
+{
+    "name":"skrip42/stateless-secure-bundle",
+    "type":"symfony-bundle",
+    "description":"add secure authentication to you stateless route",
+    "homepage":"https://github.com/skrip42/StatelessSecureBundle",
+    "version":"v1.0.0",
+    "license":"MIT",
+    "minimum-stability":"dev",
+    "require":{
+        "php":"^7.1",
+        "doctrine/annotations": "^1.0",
+        "symfony/security-bundle": "5.*",
+        "symfony/http-foundation": "^5.2.1",
+        "symfony/http-kernel": "^5.2.1",
+        "symfony/dependency-injection": "^5.2",
+        "symfony/config": "^5.0",
+        "symfony/routing": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "skrip42",
+            "email": "skrip42@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skrip42\\StatelessSecureBundle\\":""
+        }
+    }
+}
