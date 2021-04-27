@@ -37,6 +37,19 @@ security:
           - Skrip42\StatelessSecureBundle\Security\Authenticator
 ```
 
+optional redeclare you own cache pool:
+
+```yaml
+#cache.yaml
+
+framework:
+  cache:
+    default_redis_provider: 'redis://redis:6379'
+    pools:
+      stateless_token.cache:
+        adapter: cache.adapter.redis
+```
+
 ## usage
 
 just add annotation @StatelessSecure to you target action:
