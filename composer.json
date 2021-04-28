@@ -3,7 +3,7 @@
     "type":"symfony-bundle",
     "description":"add secure authentication to you stateless route",
     "homepage":"https://github.com/skrip42/StatelessSecureBundle",
-    "version":"v1.0.0",
+    "version":"v1.0.1",
     "license":"MIT",
     "minimum-stability":"dev",
     "require":{

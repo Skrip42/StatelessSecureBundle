@@ -29,7 +29,7 @@ class StatelessSecureController extends AbstractController
         $token = uniqid("", true);
         $item = $statelessTokenCache->getItem($token);
         $item->set($user);
-        $item->expiresAfter(self::TOKEN_LIFTIME);
+        $item->expiresAfter(self::TOKEN_LIFTIME * 2);
         $statelessTokenCache->save($item);
         $targetRoute = $request->query->get('target');
         $response = new RedirectResponse($targetRoute, 307);

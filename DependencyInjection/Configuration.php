@@ -8,7 +8,7 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('statelessSecure');
+        $treeBuilder = new TreeBuilder('stateless_secure');
         return $treeBuilder;
     }
 }

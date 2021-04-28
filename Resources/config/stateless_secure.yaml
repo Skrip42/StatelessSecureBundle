@@ -1,0 +1,3 @@
+stateless_secure:
+  token_settings:
+    token_liftime: 900
